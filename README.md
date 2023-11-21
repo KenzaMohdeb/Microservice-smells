@@ -8,6 +8,7 @@ Aprés une rechrche bibliographique et revue de la littérature, nous avons pu i
 # Collection des données
 
 Nous avons considéré 5 projets GitHub qui sont conçus à base de microservices.
+
 1.Train ticket [https://github.com/FudanSELab/train-ticket]: C’est un système de réservation de billets de train, et un projet conçu à base de microservices. Il contient 41 microservices. 
 
 2.SiteWhere [ https://github.com/sitewhere/sitewhere ] : C’une plate-forme d’activation d’applications IoT qui est conçue avec l’architecture microservice. 
@@ -26,6 +27,7 @@ Pour identifier les mauvaises odeurs sur Designite, nous devons télécharger le
   java -jar DesigniteJava.jar -i <MonProjet> -o <CsvResults> 
   
 L’avantage de Designite est qu’il nous affiche les résultats en détails sur l’invité de commande et nous exporte les résultats sous forme de fichiers csv. 
+
 
 
 # Analyse MSANose
