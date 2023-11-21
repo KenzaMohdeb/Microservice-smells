@@ -9,9 +9,13 @@ Aprés une rechrche bibliographique et revue de la littérature, nous avons pu i
 
 Nous avons considéré 5 projets GitHub qui sont conçus à base de microservices.
 1.Train ticket [https://github.com/FudanSELab/train-ticket]: C’est un système de réservation de billets de train, et un projet conçu à base de microservices. Il contient 41 microservices. 
+
 2.SiteWhere [ https://github.com/sitewhere/sitewhere ] : C’une plate-forme d’activation d’applications IoT qui est conçue avec l’architecture microservice. 
-3.Boutique en ligne [ https://github.com/GoogleCloudPlatform/microservices-demo ] : C’est une application de commerce électronique en ligne qui est basée sur les microservices.   
+
+3.Boutique en ligne [ https://github.com/GoogleCloudPlatform/microservices-demo ] : C’est une application de commerce électronique en ligne qui est basée sur les microservices.  
+
 4.Vihicle tracking [GitHub - mohamed-abdo/vehicle-tracking-microservices: a vehicle tracking system (microservices complaint architecture) ] : C’est un système de suivi de véhicules en ligne, conçu avec l’architecture microservices.  
+
 5.Tea store [ https://github.com/DescartesResearch/TeaStore ] : C’est une application de microservices distribuée, elle émule une boutique en ligne de base pour le thé et les fournitures de thé générés automatiquement. 
 
 
