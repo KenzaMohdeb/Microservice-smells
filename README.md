@@ -8,7 +8,7 @@ Le contexte de ce projet s'agit de faire une recherche approfondie sur les logic
 # Liste des outils
 
 
-# Collecyion des données
+# Collection des données
 
 # Analyse Designite
 
