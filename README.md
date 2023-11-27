@@ -39,10 +39,64 @@ Le plus grand avantage de Designite est qu’il nous affiche les résultats en d
 **5. Designite Tea store:**
 
 
-
+Tous les résultats de l'analyse se trouve dans le lien suivant: 
 
 
 
 # Analyse MSANose
 
+Cet outil peut détecter 11 mauvaises odeurs (de code et d’architecture).  
+
+Pour l’utiliser, il suffit de télécharger le répertoire qui est accessible sur GitHub [GitHub - cloudhubs/msa-nose]. 
+
+Ensuite, nous devons ajouter le fichier jar w4sj sur notre répertoire mvn local après avoir le télécharger sur notre machine en lançant la commande suivante sur le terminal : 
+
+`mvn install:install-file -Dfile=<chemin-vers-le-fichier-jar> -DgroupId=com.sciss -DartifactId=ws4j -Dversion=1.0.1 -Dpackaging=jar`
+
+Pour générer les setters et les getters MSANose utilise le plugin lombok, il suffit juste de le télécharger ou de l’intégrer à l'ide sur lequel nous travaillons.  
+
+Pour commencer l’analyse de nos cinq projets, nous exécutons le projet MSANose sur notre IDE, pour notre cas nous avons choisi intellig.  
+
+Pour l’analyse, il faut utiliser les points de terminaisons qui sont utilisées par MSANose. Pour se faire nous devons envoyer une requête HTTP POST à l'un de ces points de terminaison avec un corps JSON spécifique. Cela déclenchera l'analyse correspondante sur le code source de chaque projet. 
+
+Nous avons utilisé l’invité de commande pour lancer les requêtes, voici à quoi ressemble la commande :  
+
+`curl -X POST -H "Content-Type: application/json" -d '{ "pathToCompiledMicroservices": "/chemin/vers/le/projet/", "organizationPath": "", "outputPath": "" }' http://adresse-du-serveur/api/v1/rapport`
+
+La requête retournera un rapport d'analyse sous format Json avec des informations sur les odeurs détectées et leurs temps d'exécution. 
+
+Tous les résultats de l'analyse se trouve dans le lien suivant: 
+
+
+
+
 # Analyse MicroFreshener
+
+Pour utiliser l’outil, nous devons d’abord télécharger le référentiel sur GitHub, nous pouvons le faire à l’aide de la commande suivante : 
+
+`git clone https://github.com/di-unipi-socc/microFreshener.git`  
+
+La prochaine étape est d’exécuter le serveur, pour le faire nous devons lancer la commande suivante :  
+
+`python manage.py runserver`
+
+Le serveur sera opérationnel et en écoute à l'adresse suivante : http://127.0.0.1:8000/ 
+
+Ensuite, nous devons exécuter le client qui est une application web Angular à travers la commande suivante:
+
+`ng serve`
+
+Puis ouvrir notre navigateur sur l’adresse : http://localhost:4200 
+
+Afin de pouvoir analyser les applications avec l’outil MicroFreshener, nous devons générer un fichier microTosca qui décrit leur architecture en utilisant l’outil microMiner [GitHub - di-unipi-socc/microMiner]. 
+
+Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un environnement Unix : 
+
+`sudo python -m microMiner generate strategy source target [test] [time] [name]`
+
+**Exigences:** python 3.8 et privilèges sudo.
+
+
+
+Les résultats se trouvent dans le lien suivant: 
+
