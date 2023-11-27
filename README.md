@@ -26,13 +26,18 @@ Pour identifier les mauvaises odeurs sur Designite, nous devons télécharger le
 
   `java -jar DesigniteJava.jar -i <MonProjet> -o <CsvResults>` 
   
-Le plus grand avantage de Designite est qu’il nous affiche les résultats en détails sur l’invité de commande et nous exporte les résultats sous forme de fichiers csv. 
+Le plus grand avantage de Designite est qu’il nous affiche les résultats en détails sur l’invité de commande et nous exporte les résultats sous forme de fichiers csv.
+
 **1. Designite Train ticket:**
 
 **2. Designite SiteWhere:**
+
 **3. Designite online Boutique:**
+
 **4. Designite Vihicle tracking:**
+
 **5. Designite Tea store: **
+
 
 
 
