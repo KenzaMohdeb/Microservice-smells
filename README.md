@@ -9,15 +9,15 @@ Aprés une recherche bibliographique et revue de la littérature, nous avons pu 
 
 Nous avons considéré 5 projets GitHub qui sont conçus à base de microservices.
 
-1.Train ticket [https://github.com/FudanSELab/train-ticket]: C’est un système de réservation de billets de train, et un projet conçu à base de microservices. Il contient 41 microservices. 
+**1.Train ticket** [https://github.com/FudanSELab/train-ticket]: C’est un système de réservation de billets de train, et un projet conçu à base de microservices. Il contient 41 microservices. 
 
-2.SiteWhere [ https://github.com/sitewhere/sitewhere ] : C’une plate-forme d’activation d’applications IoT qui est conçue avec l’architecture microservice. 
+**2.SiteWhere** [ https://github.com/sitewhere/sitewhere ] : C’une plate-forme d’activation d’applications IoT qui est conçue avec l’architecture microservice. 
 
-3.Boutique en ligne [ https://github.com/GoogleCloudPlatform/microservices-demo ] : C’est une application de commerce électronique en ligne qui est basée sur les microservices.  
+**3.Boutique en ligne** [ https://github.com/GoogleCloudPlatform/microservices-demo ] : C’est une application de commerce électronique en ligne qui est basée sur les microservices.  
 
-4.Vihicle tracking [GitHub - mohamed-abdo/vehicle-tracking-microservices: a vehicle tracking system (microservices complaint architecture) ] : C’est un système de suivi de véhicules en ligne, conçu avec l’architecture microservices.  
+**4.Vihicle tracking** [GitHub - mohamed-abdo/vehicle-tracking-microservices: a vehicle tracking system (microservices complaint architecture) ] : C’est un système de suivi de véhicules en ligne, conçu avec l’architecture microservices.  
 
-5.Tea store [ https://github.com/DescartesResearch/TeaStore ] : C’est une application de microservices distribuée, elle émule une boutique en ligne de base pour le thé et les fournitures de thé générés automatiquement. 
+**5.Tea store** [ https://github.com/DescartesResearch/TeaStore ] : C’est une application de microservices distribuée, elle émule une boutique en ligne de base pour le thé et les fournitures de thé générés automatiquement. 
 
 
 # Analyse Designite
@@ -27,6 +27,14 @@ Pour identifier les mauvaises odeurs sur Designite, nous devons télécharger le
   `java -jar DesigniteJava.jar -i <MonProjet> -o <CsvResults>` 
   
 Le plus grand avantage de Designite est qu’il nous affiche les résultats en détails sur l’invité de commande et nous exporte les résultats sous forme de fichiers csv. 
+**1. Designite Train ticket:**
+
+**2. Designite SiteWhere:**
+**3. Designite online Boutique:**
+**4. Designite Vihicle tracking:**
+**5. Designite Tea store: **
+
+
 
 
 
