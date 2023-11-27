@@ -36,7 +36,7 @@ Le plus grand avantage de Designite est qu’il nous affiche les résultats en d
 
 **4. Designite Vihicle tracking:**
 
-**5. Designite Tea store: **
+**5. Designite Tea store:**
 
 
 
