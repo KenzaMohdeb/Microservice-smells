@@ -5,7 +5,7 @@ Le contexte de ce projet s'agit de faire une recherche approfondie sur les logic
 # Catalogue de mauvaises odeurs
 Aprés une recherche bibliographique et revue de la littérature, nous avons pu identidfier un catalogue de 21 odeurs de code et d'architecture dans les applications qui utilisent les microservices
 
-# Collection des données
+# Collection des projets open source
 
 Nous avons considéré 5 projets GitHub qui sont conçus à base de microservices.
 
