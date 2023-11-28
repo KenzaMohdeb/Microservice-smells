@@ -87,11 +87,15 @@ La prochaine étape est d’exécuter le serveur, pour le faire nous devons lanc
 
 Le serveur sera opérationnel et en écoute à l'adresse suivante : http://127.0.0.1:8000/ 
 
+![serveur](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20135554.png)
+
 Ensuite, nous devons exécuter le client qui est une application web Angular à travers la commande suivante:
 
 `ng serve`
 
 Puis ouvrir notre navigateur sur l’adresse : http://localhost:4200 
+
+![client](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20174850.png)
 
 Afin de pouvoir analyser les applications avec l’outil MicroFreshener, nous devons générer un fichier microTosca qui décrit leur architecture en utilisant l’outil microMiner [GitHub - di-unipi-socc/microMiner]. 
 
@@ -101,7 +105,9 @@ Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un 
 
 **Exigences:** python 3.8 et privilèges sudo.
 
+Voici un aperçu de l'analyse du projet online boutique: 
+![analyse](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Online%20boutique.png)
 
+Si on clique sur une odeur dans un noeud quelconque, nous aurons la fenetre suivante:
 
-Les résultats se trouvent dans le lien suivant: 
 
