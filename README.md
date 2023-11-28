@@ -113,7 +113,7 @@ Les étoiles sont des instances de l'audeur "Wobbly service interaction" et les 
 Par exemple, si on clique sur l'étoile au niveau du noeud "orders", nous aurons la description de l'odeur et des solutions de refactoring. 
 ![orders](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142513.png)
 
-Et si on clique sur l'enveloppe au niveau du noeud "Shipping", nous aurons aussi la description de l'odeur et des solutions de refactoring.
+Et si on clique sur l'enveloppe au niveau du noeud "Shipping", nous aurons aussi la description de l'odeur et des solutions de refactoring, et nous pouvons appliquer et enregister le refactoring appliqué.
 ![shipping](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142609.png)
 
 
