@@ -36,7 +36,7 @@ Le plus grand avantage de Designite est qu’il nous affiche les résultats en d
 ![SiteWhere](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteSiteWhere.png)
 
 **3. Designite online Boutique:**
-![Online boutique](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Online%20boutique.png)
+![Online boutique](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteBoutique.png)
 
 **4. Designite Vehicle tracking:**
 ![Vehicle tracking](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteVehicle.png)
