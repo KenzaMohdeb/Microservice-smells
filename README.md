@@ -5,7 +5,7 @@ Le contexte de ce projet s'agit de faire une recherche approfondie sur les logic
 # Catalogue de mauvaises odeurs
 Aprés une recherche bibliographique et revue de la littérature, nous avons pu identidfier un catalogue de 21 odeurs de code et d'architecture dans les applications qui utilisent les microservices
 
-# Collection des données
+# Collection des projets open source
 
 Nous avons considéré 5 projets GitHub qui sont conçus à base de microservices.
 
@@ -15,7 +15,7 @@ Nous avons considéré 5 projets GitHub qui sont conçus à base de microservice
 
 **3.Boutique en ligne** [ https://github.com/GoogleCloudPlatform/microservices-demo ] : C’est une application de commerce électronique en ligne qui est basée sur les microservices.  
 
-**4.Vehicle tracking** [GitHub - mohamed-abdo/vehicle-tracking-microservices ] : C’est un système de suivi de véhicules en ligne, conçu avec l’architecture microservices.  
+**4.Vihicle tracking** [ https://github.com/mohamed-abdo/vehicle-tracking-microservices ]  : C’est un système de suivi de véhicules en ligne, conçu avec l’architecture microservices.  
 
 **5.Tea store** [ https://github.com/DescartesResearch/TeaStore ] : C’est une application de microservices distribuée, elle émule une boutique en ligne de base pour le thé et les fournitures de thé générés automatiquement. 
 
@@ -30,14 +30,19 @@ Le plus grand avantage de Designite est qu’il nous affiche les résultats en d
 
 **1. Designite Train ticket:**
 
+![Train ticket](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/train-ticket%20designite.png)
+
 **2. Designite SiteWhere:**
+![SiteWhere](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteSiteWhere.png)
 
 **3. Designite online Boutique:**
+![Online boutique](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteBoutique.png)
 
 **4. Designite Vehicle tracking:**
+![Vehicle tracking](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteVehicle.png)
 
 **5. Designite Tea store:**
-
+![Tea store](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/DesigniteTeaStore.png)
 
 Tous les résultats de l'analyse se trouve dans le lien suivant: 
 
@@ -82,11 +87,15 @@ La prochaine étape est d’exécuter le serveur, pour le faire nous devons lanc
 
 Le serveur sera opérationnel et en écoute à l'adresse suivante : http://127.0.0.1:8000/ 
 
+![serveur](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20135554.png)
+
 Ensuite, nous devons exécuter le client qui est une application web Angular à travers la commande suivante:
 
 `ng serve`
 
 Puis ouvrir notre navigateur sur l’adresse : http://localhost:4200 
+
+![client](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20174850.png)
 
 Afin de pouvoir analyser les applications avec l’outil MicroFreshener, nous devons générer un fichier microTosca qui décrit leur architecture en utilisant l’outil microMiner [GitHub - di-unipi-socc/microMiner]. 
 
@@ -96,7 +105,18 @@ Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un 
 
 **Exigences:** python 3.8 et privilèges sudo.
 
+Voici un aperçu de l'analyse du projet online boutique: 
+![analyse](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Online%20boutique.png)
+
+Les étoiles sont des instances de l'audeur "Wobbly service interaction" et les enveloppes sont des instances de l'odeur "endpoints smell". 
+
+Par exemple, si on clique sur l'étoile au niveau du noeud "orders", nous aurons la description de l'odeur et des solutions de refactoring. 
+![orders](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142513.png)
+
+Et si on clique sur l'enveloppe au niveau du noeud "Shipping", nous aurons aussi la description de l'odeur et des solutions de refactoring, et nous pouvons appliquer et enregister le refactoring appliqué.
+![shipping](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142609.png)
 
 
-Les résultats se trouvent dans le lien suivant: 
+
+
 
