@@ -108,7 +108,7 @@ Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un 
 Voici un aperçu de l'analyse du projet online boutique: 
 ![analyse](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Online%20boutique.png)
 
-Les étoiles sont des instances de l'audeur "Wobbly service interaction" et les enveloppes sont des instances de l'odeur "endpoints smell". 
+Les étoiles sont des instances de l'odeur "Wobbly service interaction" et les enveloppes sont des instances de l'odeur "endpoints smell". 
 
 Par exemple, si on clique sur l'étoile au niveau du noeud "orders", nous aurons la description de l'odeur et des solutions de refactoring. 
 ![orders](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142513.png)
