@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+microservices-demo-main,hipstershop,AdService,start,Long Statement,The length of the statement "server=ServerBuilder.forPort(port).addService(new AdServiceImpl()).addService(healthMgr.getHealthService()).build().start();" is 124.,53
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "Ad candleHolder=Ad.newBuilder().setRedirectUrl("/product/0PUK6V6EV0").setText("Candle holder for sale. 30% off.").build();" is 122.,149
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "Ad bambooGlassJar=Ad.newBuilder().setRedirectUrl("/product/9SIQT8TOJO").setText("Bamboo glass jar for sale. 10% off.").build();" is 127.,149
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "Ad watch=Ad.newBuilder().setRedirectUrl("/product/1YMWWN1N4O").setText("Watch for sale. Buy one` get second kit for free").build();" is 131.,149
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "Ad mug=Ad.newBuilder().setRedirectUrl("/product/6E92ZMYYFZ").setText("Mug for sale. Buy two` get third one for free").build();" is 126.,149
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "Ad loafers=Ad.newBuilder().setRedirectUrl("/product/L9ECAV7KIM").setText("Loafers for sale. Buy one` get second one for free").build();" is 135.,149
+microservices-demo-main,hipstershop,AdService,createAdsMap,Long Statement,The length of the statement "return ImmutableListMultimap.<String`Ad>builder().putAll("clothing"`tankTop).putAll("accessories"`watch).putAll("footwear"`loafers).putAll("hair"`hairdryer).putAll("decor"`candleHolder).putAll("kitchen"`bambooGlassJar`mug).build();" is 231.,149
+microservices-demo-main,hipstershop,AdService,initStats,Magic Number,The method contains a magic number: 10,195
+microservices-demo-main,hipstershop,AdService,initStats,Magic Number,The method contains a magic number: 5,195
+microservices-demo-main,hipstershop,AdServiceClient,shutdown,Magic Number,The method contains a magic number: 5,55
+microservices-demo-main,hipstershop,AdServiceClient,getPortOrDefaultFromArgs,Magic Number,The method contains a magic number: 9555,76
+microservices-demo-main,hipstershop,AdServiceClient,getPortOrDefaultFromArgs,Magic Number,The method contains a magic number: 2,76
+microservices-demo-main,hipstershop,AdServiceClient,getPortOrDefaultFromArgs,Magic Number,The method contains a magic number: 2,76
+microservices-demo-main,hipstershop,AdServiceClient,getPortOrDefaultFromArgs,Magic Number,The method contains a magic number: 2,76
+microservices-demo-main,hipstershop,AdServiceClient,getPortOrDefaultFromArgs,Magic Number,The method contains a magic number: 9555,76

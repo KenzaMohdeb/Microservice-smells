@@ -1,0 +1,4 @@
+Project Name,Package Name,Type Name,NOF,NOPF,NOM,NOPM,LOC,WMC,NC,DIT,LCOM,FANIN,FANOUT,File path,Line no
+microservices-demo-main,hipstershop,AdService,7,0,10,1,125,15,0,0,0.3,0,0,C:\Users\kenza\Downloads\microservices-demo-main\microservices-demo-main\src\adservice\src\main\java\hipstershop\AdService.java,41
+microservices-demo-main,hipstershop,AdService.AdServiceImpl,0,0,0,0,33,0,0,0,-1.0,0,0,C:\Users\kenza\Downloads\microservices-demo-main\microservices-demo-main\src\adservice\src\main\java\hipstershop\AdService.java,84
+microservices-demo-main,hipstershop,AdServiceClient,3,0,7,2,77,10,0,0,0.2857142857142857,0,0,C:\Users\kenza\Downloads\microservices-demo-main\microservices-demo-main\src\adservice\src\main\java\hipstershop\AdServiceClient.java,31
