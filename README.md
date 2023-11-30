@@ -48,6 +48,14 @@ Tous les résultats de l'analyse se trouve dans les lien suivants:
 
 [Designite Train ticket](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/DesigniteTrainticke)
 
+[Designite TeaStore](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/DesigniteTeaStore)
+
+[Designite OnlineBoutique](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/DesigniteOnlineBoutique)
+
+[Designite SiteWhere](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/DesigniteSitewhere)
+
+[Designite VehicleTracking](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/DesigniteVehicleTracking)
+
 
 # Analyse MSANose
 
@@ -71,7 +79,7 @@ Nous avons utilisé l’invité de commande pour lancer les requêtes, voici à 
 
 La requête retournera un rapport d'analyse sous format Json avec des informations sur les odeurs détectées et leurs temps d'exécution. 
 
-Tous les résultats de l'analyse se trouve dans le lien suivant: 
+Tous les résultats de l'analyse se trouve dans le lien suivant: [https://github.com/KenzaMohdeb/Microservice-smells/tree/main/R%C3%A9sultats%20MSANose](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/R%C3%A9sultats%20MSANose)
 
 
 
@@ -104,6 +112,8 @@ Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un 
 
 `sudo python -m microMiner generate strategy source target [test] [time] [name]`
 
+voici un exemple de fichier résultant: [https://github.com/KenzaMohdeb/Microservice-smells/blob/main/R%C3%A9sultats%20MicroFreshener/BoutiqueOline.yml](https://github.com/KenzaMohdeb/Microservice-smells/blob/main/R%C3%A9sultats%20MicroFreshener/BoutiqueOline.yml)
+
 **Exigences:** python 3.8 et privilèges sudo.
 
 Voici un aperçu de l'analyse du projet online boutique: 
@@ -117,6 +127,7 @@ Par exemple, si on clique sur l'étoile au niveau du noeud "orders", nous aurons
 Et si on clique sur l'enveloppe au niveau du noeud "Shipping", nous aurons aussi la description de l'odeur et des solutions de refactoring, et nous pouvons appliquer et enregister le refactoring appliqué.
 ![shipping](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20142609.png)
 
+Toutes les captures d'écrans se trouve dans le lien suivant: [https://github.com/KenzaMohdeb/Microservice-smells/tree/main/R%C3%A9sultats%20MicroFreshener](https://github.com/KenzaMohdeb/Microservice-smells/tree/main/R%C3%A9sultats%20MicroFreshener)
 
 
 
