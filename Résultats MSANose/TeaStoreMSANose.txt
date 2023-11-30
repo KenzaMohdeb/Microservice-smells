@@ -1,0 +1,125 @@
+{
+  "unversionedAPIContext": {
+    "unversionedAPIs": [],
+    "count": 0
+  },
+  "hardCodedEndpointsContext": {
+    "hardcodedEndpoints": [],
+    "totalHardcodedEndpoints": 0,
+    "totalHardcodedPorts": 0,
+    "totalHardcodedIP": 0
+  },
+  "esbContext": {
+    "candidateESBs": []
+  },
+  "cyclicDependency": false,
+  "sharedPersistencyContext": {
+    "sharedPersistencies": []
+  },
+  "sharedLibraryContext": {
+    "sharedLibraries": {
+      "tools.descartes.teastore:registryclient": {
+        "library": "tools.descartes.teastore:registryclient",
+        "microservices": [
+          "null:image",
+          "null:auth",
+          "null:recommender",
+          "null:persistence",
+          "null:webui"
+        ],
+        "count": 5
+      },
+      "jakarta.activation:jakarta.activation-api": {
+        "library": "jakarta.activation:jakarta.activation-api",
+        "microservices": [
+          "null:registry",
+          "null:auth",
+          "null:recommender",
+          "null:persistence"
+        ],
+        "count": 4
+      },
+      "org.slf4j:slf4j-api": {
+        "library": "org.slf4j:slf4j-api",
+        "microservices": [
+          "null:image",
+          "null:registry"
+        ],
+        "count": 2
+      },
+      "jakarta.platform:jakarta.jakartaee-api": {
+        "library": "jakarta.platform:jakarta.jakartaee-api",
+        "microservices": [
+          "null:registry",
+          "null:webui"
+        ],
+        "count": 2
+      }
+    }
+  },
+  "microservicesGreedyContext": {
+    "microserviceMetrics": [
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.auth",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.image",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.persistence",
+        "staticFileCount": 3,
+        "entityFileCount": 6
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.recommender",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.registry",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\TeaStore-master\\TeaStore-master\\services\\tools.descartes.teastore.webui",
+        "staticFileCount": 35,
+        "entityFileCount": 0
+      }
+    ],
+    "greedyMicroservices": []
+  },
+  "wrongCutsContext": {
+    "entityCounts": [],
+    "possibleWrongCuts": []
+  },
+  "inappropriateServiceIntimacyContext": {
+    "sharedIntimacies": [],
+    "count": 0
+  },
+  "tooManyStandardsContext": {
+    "presentationTypes": [
+      "STATIC"
+    ],
+    "businessTypes": [],
+    "dataTypes": []
+  },
+  "times": {
+    "Too Many Standards": 47,
+    "Wrong Cuts": 16,
+    "Bytecode Analysis": 0,
+    "Shared Persistency": 15,
+    "Shared Library": 47,
+    "ESB": 0,
+    "Microservice Greedy": 909,
+    "Unversioned API": 1552,
+    "Hardcoded Enpoints": 0,
+    "Cyclic Dependency": 0,
+    "API Gateway": 0,
+    "ISI": 0
+  },
+  "apigateway": false
+}

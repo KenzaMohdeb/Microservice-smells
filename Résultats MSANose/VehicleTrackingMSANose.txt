@@ -1,0 +1,127 @@
+{
+  "unversionedAPIContext": {
+    "unversionedAPIs": [],
+    "count": 0
+  },
+  "hardCodedEndpointsContext": {
+    "hardcodedEndpoints": [],
+    "totalHardcodedEndpoints": 0,
+    "totalHardcodedPorts": 0,
+    "totalHardcodedIP": 0
+  },
+  "esbContext": {
+    "candidateESBs": []
+  },
+  "cyclicDependency": false,
+  "sharedPersistencyContext": {
+    "sharedPersistencies": []
+  },
+  "sharedLibraryContext": {
+    "sharedLibraries": {}
+  },
+  "microservicesGreedyContext": {
+    "microserviceMetrics": [
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\Components",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\Customer",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\CustomerSQLDB",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\CustomerTests",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\DomainModels",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\EventSourcing",
+        "staticFileCount": 1,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\Ping",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\PingTests",
+        "staticFileCount": 2,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\Tracking",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\TrackingSQLDB",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\TrackingTests",
+        "staticFileCount": 1,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\Vehicle",
+        "staticFileCount": 3,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\VehicleSQLDB",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\vehicle-tracking-microservices-master\\vehicle-tracking-microservices-master\\vehicle-tracking-poc\\VehicleTests",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      }
+    ],
+    "greedyMicroservices": []
+  },
+  "wrongCutsContext": {
+    "entityCounts": [],
+    "possibleWrongCuts": []
+  },
+  "inappropriateServiceIntimacyContext": {
+    "sharedIntimacies": [],
+    "count": 0
+  },
+  "tooManyStandardsContext": {
+    "presentationTypes": [
+      "STATIC"
+    ],
+    "businessTypes": [],
+    "dataTypes": []
+  },
+  "times": {
+    "Too Many Standards": 48,
+    "Wrong Cuts": 31,
+    "Bytecode Analysis": 0,
+    "Shared Persistency": 16,
+    "Shared Library": 32,
+    "ESB": 15,
+    "Microservice Greedy": 62,
+    "Unversioned API": 109,
+    "Hardcoded Enpoints": 0,
+    "Cyclic Dependency": 0,
+    "API Gateway": 0,
+    "ISI": 0
+  },
+  "apigateway": false
+}

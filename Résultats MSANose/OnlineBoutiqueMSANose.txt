@@ -1,0 +1,112 @@
+{
+  "unversionedAPIContext": {
+    "unversionedAPIs": [],
+    "count": 0
+  },
+  "hardCodedEndpointsContext": {
+    "hardcodedEndpoints": [],
+    "totalHardcodedEndpoints": 0,
+    "totalHardcodedPorts": 0,
+    "totalHardcodedIP": 0
+  },
+  "esbContext": {
+    "candidateESBs": []
+  },
+  "cyclicDependency": false,
+  "sharedPersistencyContext": {
+    "sharedPersistencies": []
+  },
+  "sharedLibraryContext": {
+    "sharedLibraries": {}
+  },
+  "microservicesGreedyContext": {
+    "microserviceMetrics": [
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\.deploystack",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\.github",
+        "staticFileCount": 1,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\docs",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\helm-chart",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\istio-manifests",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\kubernetes-manifests",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\kustomize",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\protos",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\release",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\src",
+        "staticFileCount": 25,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\microservices-demo-main\\microservices-demo-main\\terraform",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      }
+    ],
+    "greedyMicroservices": []
+  },
+  "wrongCutsContext": {
+    "entityCounts": [],
+    "possibleWrongCuts": []
+  },
+  "inappropriateServiceIntimacyContext": {
+    "sharedIntimacies": [],
+    "count": 0
+  },
+  "tooManyStandardsContext": {
+    "presentationTypes": [
+      "STATIC"
+    ],
+    "businessTypes": [],
+    "dataTypes": []
+  },
+  "times": {
+    "Too Many Standards": 144,
+    "Wrong Cuts": 41,
+    "Bytecode Analysis": 0,
+    "Shared Persistency": 42,
+    "Shared Library": 50,
+    "ESB": 0,
+    "Microservice Greedy": 361,
+    "Unversioned API": 544,
+    "Hardcoded Enpoints": 0,
+    "Cyclic Dependency": 0,
+    "API Gateway": 0,
+    "ISI": 0
+  },
+  "apigateway": false
+}

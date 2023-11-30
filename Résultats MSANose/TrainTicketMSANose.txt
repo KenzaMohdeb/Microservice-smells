@@ -1,0 +1,561 @@
+{
+  "unversionedAPIContext": {
+    "unversionedAPIs": [
+      "",
+      "/payment",
+      "/securityConfigs",
+      "/welcome",
+      "/assurance/orderid/{orderId}",
+      "/prices/welcome",
+      "/contacts/{id}",
+      "/orders/dtime",
+      "/contacts/account/{accountId}",
+      "/order/query",
+      "/trainfoods/{tripId}",
+      "/{userName}",
+      "/adminbasic/contacts/{contactsId}",
+      "/id/{userId}",
+      "/assurances/{typeIndex}/{orderId}",
+      "/routes",
+      "/payment/money",
+      "/stationfoodstores/{stationId}",
+      "/adminbasic/trains/{id}",
+      "/stationfoodstores/bystoreid/{stationFoodStoreId}",
+      "/hello",
+      "/assurances/orderid/{orderId}",
+      "/order/{travelDate}/{trainNumber}",
+      "/routes/{start}/{end}",
+      "/adminbasic/trains",
+      "/assurances/assuranceid/{assuranceId}",
+      "/createOrderBatch",
+      "/securityConfigs/{id}",
+      "/orders/{orderId}",
+      "/orders/store/{storeId}",
+      "/test_send_mail",
+      "/cancel/refound/{orderId}",
+      "/adminbasic/stations/{id}",
+      "/adminorder",
+      "/orderOther/{travelDate}/{trainNumber}",
+      "/adminbasic/configs/{name}",
+      "/{userId}",
+      "/assurances/{assuranceId}/{orderId}/{typeIndex}",
+      "/orderOther/query",
+      "/stationfoodstores/welcome",
+      "/adminbasic/configs",
+      "/adminbasic/prices",
+      "/orderOther/{orderId}",
+      "/trainfoods",
+      "/order/refresh",
+      "/execute/collected/{orderId}",
+      "/register",
+      "/contacts",
+      "/adminroute",
+      "/login",
+      "/orderOther/admin",
+      "/test_send_delivery",
+      "/order/orderPay/{orderId}",
+      "/stationfoodstores",
+      "/order/{orderId}",
+      "/order/status/{orderId}/{status}",
+      "/foods/{date}/{startStation}/{endStation}/{tripId}",
+      "/trains/welcome",
+      "/waitlistorders",
+      "/orderOther/refresh",
+      "/contacts/admin",
+      "/trainfoods/welcome",
+      "/securityConfigs/{accountId}",
+      "/orders/d/{orderId}",
+      "/assurances",
+      "/contacts/welcome",
+      "/orderOther/status/{orderId}/{status}",
+      "/orders/tripid",
+      "/assurances/types",
+      "/routes/{routeId}",
+      "/generate",
+      "/admintravel",
+      "/order/security/{checkDate}/{accountId}",
+      "/orderOther",
+      "/adminbasic/prices/{pricesId}",
+      "/adminbasic/stations",
+      "/test_send_mq",
+      "/adminbasic/contacts",
+      "/orderOther/orderPay/{orderId}",
+      "/contacts/{contactsId}",
+      "/orders/all",
+      "/cancel/{orderId}/{loginId}",
+      "/order/price/{orderId}",
+      "/orders",
+      "/routes/byIds",
+      "/order/admin",
+      "/orders/seatno",
+      "/execute/execute/{orderId}",
+      "/orderOther/price/{orderId}",
+      "/order",
+      "/orderOther/security/{checkDate}/{accountId}"
+    ],
+    "count": 91
+  },
+  "hardCodedEndpointsContext": {
+    "hardcodedEndpoints": [],
+    "totalHardcodedEndpoints": 0,
+    "totalHardcodedPorts": 0,
+    "totalHardcodedIP": 0
+  },
+  "esbContext": {
+    "candidateESBs": []
+  },
+  "cyclicDependency": false,
+  "sharedPersistencyContext": {
+    "sharedPersistencies": []
+  },
+  "sharedLibraryContext": {
+    "sharedLibraries": {
+      "org.springframework.boot:spring-boot-starter-data-jpa": {
+        "library": "org.springframework.boot:spring-boot-starter-data-jpa",
+        "microservices": [
+          "fdse.microservice:ts-consign-price-service",
+          "fdse.microservice:ts-station-service",
+          "fdse.microservice:ts-food-delivery-service",
+          "fdse.microservice:ts-food-service",
+          "fdse.microservice:ts-travel-service",
+          "fdse.microservice:ts-consign-service",
+          "fdse.microservice:ts-user-service",
+          "fdse.microservice:ts-delivery-service",
+          "fdse.microservice:ts-payment-service",
+          "fdse.microservice:ts-notification-service",
+          "fdse.microservice:ts-travel2-service",
+          "fdse.microservice:ts-security-service",
+          "fdse.microservice:ts-price-service",
+          "fdse.microservice:ts-assurance-service",
+          "fdse.microservice:ts-order-other-service",
+          "fdse.microservice:ts-inside-payment-service",
+          "fdse.microservice:ts-order-service",
+          "fdse.microservice:ts-config-service",
+          "fdse.microservice:ts-wait-order-service",
+          "fdse.microservice:ts-auth-service",
+          "fdse.microservice:ts-train-food-service",
+          "fdse.microservice:ts-route-service",
+          "fdse.microservice:ts-train-service",
+          "fdse.microservice:ts-contacts-service",
+          "fdse.microservice:ts-station-food-service"
+        ],
+        "count": 25
+      },
+      "org.services:ts-common": {
+        "library": "org.services:ts-common",
+        "microservices": [
+          "fdse.microservice:ts-consign-price-service",
+          "fdse.microservice:ts-station-service",
+          "fdse.microservice:ts-food-delivery-service",
+          "fdse.microservice:ts-food-service",
+          "fdse.microservice:ts-cancel-service",
+          "fdse.microservice:ts-execute-service",
+          "fdse.microservice:ts-travel-service",
+          "fdse.microservice:ts-admin-order-service",
+          "fdse.microservice:ts-consign-service",
+          "fdse.microservice:ts-user-service",
+          "fdse.microservice:ts-delivery-service",
+          "fdse.microservice:ts-preserve-service",
+          "fdse.microservice:ts-admin-travel-service",
+          "fdse.microservice:ts-admin-user-service",
+          "fdse.microservice:ts-payment-service",
+          "fdse.microservice:ts-notification-service",
+          "fdse.microservice:ts-travel2-service",
+          "fdse.microservice:ts-security-service",
+          "fdse.microservice:ts-price-service",
+          "fdse.microservice:ts-assurance-service",
+          "fdse.microservice:ts-verification-code-service",
+          "fdse.microservice:ts-basic-service",
+          "fdse.microservice:ts-order-other-service",
+          "fdse.microservice:ts-admin-route-service",
+          "fdse.microservice:ts-inside-payment-service",
+          "fdse.microservice:ts-order-service",
+          "fdse.microservice:ts-seat-service",
+          "fdse.microservice:ts-config-service",
+          "fdse.microservice:ts-travel-plan-service",
+          "fdse.microservice:ts-wait-order-service",
+          "fdse.microservice:ts-admin-basic-info-service",
+          "fdse.microservice:ts-auth-service",
+          "fdse.microservice:ts-train-food-service",
+          "fdse.microservice:ts-rebook-service",
+          "fdse.microservice:ts-route-service",
+          "fdse.microservice:ts-train-service",
+          "fdse.microservice:ts-preserve-other-service",
+          "fdse.microservice:ts-contacts-service",
+          "fdse.microservice:ts-route-plan-service",
+          "fdse.microservice:ts-station-food-service"
+        ],
+        "count": 40
+      },
+      "jakarta.validation:jakarta.validation-api": {
+        "library": "jakarta.validation:jakarta.validation-api",
+        "microservices": [
+          "fdse.microservice:ts-travel2-service",
+          "fdse.microservice:ts-price-service",
+          "fdse.microservice:ts-assurance-service",
+          "null:ts-common",
+          "fdse.microservice:ts-basic-service",
+          "fdse.microservice:ts-order-other-service",
+          "fdse.microservice:ts-inside-payment-service",
+          "fdse.microservice:ts-station-service",
+          "fdse.microservice:ts-order-service",
+          "fdse.microservice:ts-food-delivery-service",
+          "fdse.microservice:ts-seat-service",
+          "fdse.microservice:ts-config-service",
+          "fdse.microservice:ts-travel-service",
+          "fdse.microservice:ts-wait-order-service",
+          "fdse.microservice:ts-admin-basic-info-service",
+          "fdse.microservice:ts-train-food-service",
+          "fdse.microservice:ts-rebook-service",
+          "fdse.microservice:ts-train-service",
+          "fdse.microservice:ts-preserve-service",
+          "fdse.microservice:ts-preserve-other-service",
+          "fdse.microservice:ts-payment-service",
+          "fdse.microservice:ts-station-food-service"
+        ],
+        "count": 22
+      },
+      "org.springframework.boot:spring-boot-starter-amqp": {
+        "library": "org.springframework.boot:spring-boot-starter-amqp",
+        "microservices": [
+          "fdse.microservice:ts-delivery-service",
+          "fdse.microservice:ts-preserve-service",
+          "fdse.microservice:ts-preserve-other-service",
+          "fdse.microservice:ts-food-service"
+        ],
+        "count": 4
+      },
+      "io.springfox:springfox-swagger2": {
+        "library": "io.springfox:springfox-swagger2",
+        "microservices": [
+          "fdse.microservice:ts-delivery-service",
+          "org.services:ts-service"
+        ],
+        "count": 2
+      },
+      "org.springframework.boot:spring-boot-starter-web": {
+        "library": "org.springframework.boot:spring-boot-starter-web",
+        "microservices": [
+          "myproject.microservices:micro-service-monitoring-core",
+          "org.services:ts-service"
+        ],
+        "count": 2
+      },
+      "io.jsonwebtoken:jjwt": {
+        "library": "io.jsonwebtoken:jjwt",
+        "microservices": [
+          "null:ts-common",
+          "fdse.microservice:ts-auth-service"
+        ],
+        "count": 2
+      }
+    }
+  },
+  "microservicesGreedyContext": {
+    "microserviceMetrics": [
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\.github",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\deployment",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\hack",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\image",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\jenkins-ci",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\old-docs",
+        "staticFileCount": 7,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\script",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-admin-basic-info-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-admin-order-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-admin-route-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-admin-travel-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-admin-user-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-assurance-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-auth-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-avatar-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-basic-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-cancel-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-common",
+        "staticFileCount": 0,
+        "entityFileCount": 38
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-config-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-consign-price-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-consign-service",
+        "staticFileCount": 0,
+        "entityFileCount": 4
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-contacts-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-delivery-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-execute-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-food-delivery-service",
+        "staticFileCount": 0,
+        "entityFileCount": 5
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-food-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-gateway-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-inside-payment-service",
+        "staticFileCount": 0,
+        "entityFileCount": 6
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-news-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-notification-service",
+        "staticFileCount": 0,
+        "entityFileCount": 2
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-order-other-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-order-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-payment-service",
+        "staticFileCount": 0,
+        "entityFileCount": 2
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-preserve-other-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-preserve-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-price-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-rebook-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-route-plan-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-route-service",
+        "staticFileCount": 0,
+        "entityFileCount": 2
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-seat-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-security-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-station-food-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-station-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-ticket-office-service",
+        "staticFileCount": 1060,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-train-food-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-train-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-travel-plan-service",
+        "staticFileCount": 0,
+        "entityFileCount": 3
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-travel-service",
+        "staticFileCount": 0,
+        "entityFileCount": 4
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-travel2-service",
+        "staticFileCount": 0,
+        "entityFileCount": 4
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-ui-dashboard",
+        "staticFileCount": 108,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-user-service",
+        "staticFileCount": 0,
+        "entityFileCount": 1
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-verification-code-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-voucher-service",
+        "staticFileCount": 0,
+        "entityFileCount": 0
+      },
+      {
+        "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\train-ticket-master (1)\\train-ticket-master\\ts-wait-order-service",
+        "staticFileCount": 0,
+        "entityFileCount": 2
+      }
+    ],
+    "greedyMicroservices": []
+  },
+  "wrongCutsContext": {
+    "entityCounts": [],
+    "possibleWrongCuts": []
+  },
+  "inappropriateServiceIntimacyContext": {
+    "sharedIntimacies": [],
+    "count": 0
+  },
+  "tooManyStandardsContext": {
+    "presentationTypes": [
+      "STATIC"
+    ],
+    "businessTypes": [
+      "SPRING"
+    ],
+    "dataTypes": []
+  },
+  "times": {
+    "Too Many Standards": 736,
+    "Wrong Cuts": 241,
+    "Bytecode Analysis": 0,
+    "Shared Persistency": 243,
+    "Shared Library": 2878,
+    "ESB": 6,
+    "Microservice Greedy": 9504,
+    "Unversioned API": 17288,
+    "Hardcoded Enpoints": 5,
+    "Cyclic Dependency": 2,
+    "API Gateway": 0,
+    "ISI": 0
+  },
+  "apigateway": false
+}
