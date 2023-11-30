@@ -1,0 +1,23 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Message,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Payload,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Http,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Hystrix,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Async,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,ChainKeys.Mvc,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring,Item.SpanBuilder,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.instrument.msg,TCInter,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,SWProp.Client,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,SWProp.Async,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,SWProp.AsyncClient,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,SWProp.Template,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,TFilter,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 14
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,THInter,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+train-ticket-master,org.myproject.ms.monitoring.instrument.web,TWAConf,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+train-ticket-master,org.myproject.ms.monitoring.mtc,SMProp.Span,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+train-ticket-master,org.myproject.ms.monitoring.trace,DChainer,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 10
+train-ticket-master,rebook.service,RebookServiceImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 15
+train-ticket-master,rebook.service,RebookServiceImplTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+train-ticket-master,travel.service,TravelServiceImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 8
+train-ticket-master,travel2.service,TravelServiceImpl,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 9
+train-ticket-master,travel2.service,TravelServiceImplTest,Excessive Dependency,The tool detected the smell in this class because the class depends on too many dependencies. The total number of dependencies is: 11

@@ -1,0 +1,375 @@
+0Project Name;ackage Name;Type Name;Code Smell
+0train-ticket-master;org.services.analysis;App;Unutilized Abstraction
+0train-ticket-master;org.services.analysis;CalculateEventAndNode;Unutilized Abstraction
+0train-ticket-master;org.services.analysis;Test;Unutilized Abstraction
+0train-ticket-master;org.services.analysis;TraceTranslator;Insufficient Modularization
+0train-ticket-master;(default package);TestFlowOne;Unutilized Abstraction
+0train-ticket-master;(default package);TestFlowTwoPay;Unutilized Abstraction
+0train-ticket-master;(default package);TestFlowTwoRebook;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceBasicInfo;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceCancel;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceCellect;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceConfig;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceContacts;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceExecute;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceInsidePay;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceLogin;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceNotification;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceOrders;Unutilized Abstraction
+0train-ticket-master;(default package);TestServicePayment;Unutilized Abstraction
+0train-ticket-master;(default package);TestServicePrice;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceRebook;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceRegister;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceSecurity;Unutilized Abstraction
+0train-ticket-master;(default package);TestServiceSSO;Unutilized Abstraction0
+0train-ticket-master;(default package);TestServiceStation;Unutilized Abstrac0tion
+0train-ticket-master;(default package);TestServiceTicketInfo;Unutilized Abst0raction
+0train-ticket-master;(default package);TestServiceTrain;Unutilized Abstracti0on
+0train-ticket-master;(default package);TestServiceTravel;Unutilized Abstract0ion
+0train-ticket-master;(default package);TravelInfo;Unutilized Abstraction    0
+0train-ticket-master;(default package);TestServiceTravel2;Unutilized Abstrac0tion
+0train-ticket-master;org.myproject.ms.monitoring.antn;DefaultSpanCreator;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;NoOpTagValueResolver;U0nutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SleuthAdvisorConfig;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;AnnotationClassOrMetho0dFilter;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SleuthInterceptor;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SleuthAnnotatedParamet0er;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SleuthAnnotationAutoCo0nfiguration;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SleuthAnnotationProper0ties;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.antn;SpelTagValueExpression0Resolver;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.atcfg;TraceAutoConfiguratio0n;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.atcfg;TraceEnvironmentPostP0rocessor;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring;ChainCallable;Unutilized Ab0straction
+0train-ticket-master;org.myproject.ms.monitoring;ChainKeys;Insufficient Modu0larization
+0train-ticket-master;org.myproject.ms.monitoring;ChainRunnable;Unutilized Ab0straction
+0train-ticket-master;org.myproject.ms.monitoring;Item;Unutilized Abstraction0
+0train-ticket-master;org.myproject.ms.monitoring;Item;Deficient Encapsulatio0n
+0train-ticket-master;org.myproject.ms.monitoring;Item;Cyclic-Dependent Modul0arization
+0train-ticket-master;org.myproject.ms.monitoring;Item;Insufficient Modulariz0ation
+0train-ticket-master;org.myproject.ms.monitoring;SpanBuilder;Cyclic-Dependen0t Modularization
+0train-ticket-master;org.myproject.ms.monitoring;SpanBuilder;Insufficient Mo0dularization
+0train-ticket-master;org.myproject.ms.monitoring;ItemAdjuster;Unutilized Abs0traction
+0train-ticket-master;org.myproject.ms.monitoring;ItemContext;Unutilized Abst0raction
+0train-ticket-master;org.myproject.ms.monitoring;ItemExtractor;Unutilized Ab0straction
+0train-ticket-master;org.myproject.ms.monitoring;ItemInjector;Unutilized Abs0traction
+0train-ticket-master;org.myproject.ms.monitoring;NOItemAdjuster;Unutilized A0bstraction
+0train-ticket-master;org.myproject.ms.monitoring;NOItemReporter;Unutilized A0bstraction
+0train-ticket-master;org.myproject.ms.monitoring;StateItemAdjuster;Unutilize0d Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;ACAtcfg;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;ADAtcfg;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;DefaultAsy0ncConfigurerSupport;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;EBPProc;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;ExecutorMe0thodInterceptor;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;LTACus;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;SCTCall;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;SCTRun;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;TAAsp;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;TCCall;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;TEServ;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;TSEServ;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.async;TSEServ;Br0oken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.messaging.websoc0ket;TWSAConf;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;ATCInter;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;HBMExtra;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;HBMExtra;Bro0ken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;HBMInject;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;HBMInject;Br0oken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;ITCInter;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;ITCInter;Bro0ken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;MSTMExtra;Un0necessary Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;MSTMInject;U0nnecessary Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;MTMap;Unutil0ized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;TCInter;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;TCInter;Brok0en Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;TMHead;Defic0ient Encapsulation
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;TSIAConf;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.msg;TSMAConf;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.rest;SHAConf;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.rest;SHCStra;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.rest;HystrixTrac0eCallable;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.rest;TComm;Unuti0lized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.schedl;TSAConf;U0nutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.schedl;TSAspect;0Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;ATHRI0nter;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;HRTMa0p;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TACHR0FW;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TACHR0FW;Broken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TALTE0xec;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TARTe0mp;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TARTe0mp;Insufficient Modularization
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;Trace0SuccessCallback;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;Trace0FailureCallback;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;Trace0ListenableFutureCallbackWrapper;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;Trace0ListenableFutureCallback;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;THRes0p;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TRTIn0ter;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TRTIn0ter;Broken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TWACA0Conf;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;TWCAC0onf;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web.client;Trace0InterceptorConfiguration;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;HSExtra;Unne0cessary Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;HSInject;Unn0ecessary Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;HSRTMap;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;SWProp;Defic0ient Encapsulation
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;Async;Unutil0ized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TFilter;Defi0cient Encapsulation
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;THAConf;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;THSResp;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TPWriter;Unu0tilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TPWriter;Ins0ufficient Modularization
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TRAttr;Defic0ient Encapsulation
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TSDBPProcess0;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TraceDelegat0ingHandlerMapping;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TSOStr;Unuti0lized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TSOStr;Insuf0ficient Modularization
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TWAConf;Cycl0ic-Dependent Modularization
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TraceWebMvcA0utoConfiguration;Unnecessary Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TraceWebMvcA0utoConfiguration;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;SkipPatternP0roviderConfig;Cyclic-Dependent Modularization
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TWAsp;Unutil0ized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;TWMConf;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;ZHSExtra;Bro0ken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;ZHSInject;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.instrument.web;ZHSInject;Br0oken Hierarchy
+0train-ticket-master;org.myproject.ms.monitoring.lgger;LogAtcfg;Unutilized A0bstraction
+0train-ticket-master;org.myproject.ms.monitoring.lgger;Slf4jConfiguration;Un0utilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.lgger;NoItemLogger;Unutiliz0ed Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.mtc;CounterServiceSpanRepor0terConfig;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.mtc;PickMetricIfMetricsIsMi0ssing;Unutilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.mtc;CSBSMRep;Unutilized Abs0traction
+0train-ticket-master;org.myproject.ms.monitoring.mtc;ItemMetricReporter;Unut0ilized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.mtc;NOIMRep;Unutilized Abst0raction
+0train-ticket-master;org.myproject.ms.monitoring.spl;AlwaysSampler;Unutilize0d Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.spl;IsChainingSampler;Unuti0lized Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.spl;NeverSampler;Deficient 0Encapsulation
+0train-ticket-master;org.myproject.ms.monitoring.trace;DChainer;Unutilized A0bstraction
+0train-ticket-master;org.myproject.ms.monitoring.trace;NoOpFunction;Unutiliz0ed Abstraction
+0train-ticket-master;org.myproject.ms.monitoring.util;ArrayListItemAccum;Unu0tilized Abstraction
+0train-ticket-master;adminbasic.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;adminbasic.controller;AdminBasicInfoController;Insuffic0ient Modularization
+0train-ticket-master;adminbasic.controller;AdminBasicInfoControllerTest;Unut0ilized Abstraction
+0train-ticket-master;adminbasic.controller;AdminBasicInfoControllerTest;Insu0fficient Modularization
+0train-ticket-master;adminbasic.entity;PriceInfo;Unnecessary Abstraction    0
+0train-ticket-master;adminbasic.entity;PriceInfo;Unutilized Abstraction     0
+0train-ticket-master;adminbasic.entity;PriceInfo;Broken Modularization      0
+0train-ticket-master;adminbasic.service;AdminBasicInfoServiceImpl;Insufficie0nt Modularization
+0train-ticket-master;adminbasic.service;AdminBasicInfoServiceImplTest;Unutil0ized Abstraction
+0train-ticket-master;adminbasic.service;AdminBasicInfoServiceImplTest;Insuff0icient Modularization
+0train-ticket-master;adminorder.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;adminorder.controller;AdminOrderControllerTest;Unutiliz0ed Abstraction
+0train-ticket-master;adminorder.controller;FoodControllerTest;Unutilized Abs0traction
+0train-ticket-master;adminorder.service;AdminOrderServiceImplTest;Unutilized0 Abstraction
+0train-ticket-master;adminorder.service;FoodServiceImplTest;Unutilized Abstr0action
+0train-ticket-master;adminroute.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;adminroute.controller;AdminRouteController;Deficient En0capsulation
+0train-ticket-master;adminroute.controller;AdminRouteControllerTest;Unutiliz0ed Abstraction
+0train-ticket-master;adminroute.service;AdminRouteServiceImpl;Deficient Enca0psulation
+0train-ticket-master;adminroute.service;AdminRouteServiceImplTest;Unutilized0 Abstraction
+0train-ticket-master;admintravel.config;SecurityConfig;Unutilized Abstractio0n
+0train-ticket-master;admintravel.controller;AdminTravelControllerTest;Unutil0ized Abstraction
+0train-ticket-master;admintravel.service;AdminTravelServiceImplTest;Unutiliz0ed Abstraction
+0train-ticket-master;adminuser.config;SecurityConfig;Unutilized Abstraction 0
+0train-ticket-master;adminuser.controller;AdminUserControllerTest;Unutilized0 Abstraction
+0train-ticket-master;adminuser.dto;UserDto;Broken Modularization            0
+0train-ticket-master;adminuser.service;AdminUserServiceImplTest;Unutilized A0bstraction
+0train-ticket-master;assurance.config;SecurityConfig;Unutilized Abstraction 0
+0train-ticket-master;assurance.controller;AssuranceControllerTest;Unutilized0 Abstraction
+0train-ticket-master;assurance.entity;AssuranceTypeBean;Unnecessary Abstract0ion
+0train-ticket-master;assurance.entity;PlainAssurance;Unutilized Abstraction 0
+0train-ticket-master;assurance.init;InitData;Unutilized Abstraction         0
+0train-ticket-master;assurance.service;AssuranceServiceImplTest;Unutilized A0bstraction
+0train-ticket-master;auth.config;WebSecurityConfig;Unutilized Abstraction   0
+0train-ticket-master;auth.constant;AuthConstant;Deficient Encapsulation     0
+0train-ticket-master;auth.constant;InfoConstant;Deficient Encapsulation     0
+0train-ticket-master;auth.controller;AuthControllerTest;Unutilized Abstracti0on
+0train-ticket-master;auth.controller;UserControllerTest;Unutilized Abstracti0on
+0train-ticket-master;auth.dto;AuthDto;Unnecessary Abstraction               0
+0train-ticket-master;auth.dto;BasicAuthDto;Unnecessary Abstraction          0
+0train-ticket-master;auth.dto;TokenDto;Unnecessary Abstraction              0
+0train-ticket-master;auth.dto;TokenDto;Unutilized Abstraction               0
+0train-ticket-master;auth.exception.handler;GlobalExceptionHandler;Unutilize0d Abstraction
+0train-ticket-master;auth.init;InitUser;Unutilized Abstraction              0
+0train-ticket-master;auth.security;UserDetailsServiceImpl;Unutilized Abstrac0tion
+0train-ticket-master;auth.service;TokenServiceImplTest;Unutilized Abstractio0n
+0train-ticket-master;auth.service;UserServiceImplTest;Unutilized Abstraction0
+0train-ticket-master;fdse.microservice.config;SecurityConfig;Unutilized Abst0raction
+0train-ticket-master;fdse.microservice.config;SecurityConfig;Unutilized Abst0raction
+0train-ticket-master;fdse.microservice.controller;BasicControllerTest;Unutil0ized Abstraction
+0train-ticket-master;fdse.microservice.controller;StationControllerTest;Unut0ilized Abstraction
+0train-ticket-master;fdse.microservice.service;BasicServiceImplTest;Unutiliz0ed Abstraction
+0train-ticket-master;fdse.microservice.service;StationServiceImplTest;Unutil0ized Abstraction
+0train-ticket-master;cancel.config;SecurityConfig;Unutilized Abstraction    0
+0train-ticket-master;cancel.controller;CancelControllerTest;Unutilized Abstr0action
+0train-ticket-master;cancel.entity;GetAccountByIdInfo;Unutilized Abstraction0
+0train-ticket-master;cancel.entity;GetAccountByIdResult;Unutilized Abstracti0on
+0train-ticket-master;cancel.entity;GetOrderByIdInfo;Unutilized Abstraction  0
+0train-ticket-master;cancel.service;CancelServiceImplTest;Unutilized Abstrac0tion
+0train-ticket-master;edu.fudan.common.entity;AdminTrip;Unutilized Abstractio0n
+0train-ticket-master;edu.fudan.common.entity;Assurance;Unutilized Abstractio0n
+0train-ticket-master;edu.fudan.common.entity;Config;Unnecessary Abstraction 0
+0train-ticket-master;edu.fudan.common.entity;Consign;Unutilized Abstraction 0
+0train-ticket-master;edu.fudan.common.entity;Consign;Broken Modularization  0
+0train-ticket-master;edu.fudan.common.entity;LeftTicketInfo;Unutilized Abstr0action
+0train-ticket-master;edu.fudan.common.entity;PriceConfig;Unutilized Abstract0ion
+0train-ticket-master;edu.fudan.common.entity;RoutePlanResultUnit;Unutilized 0Abstraction
+0train-ticket-master;edu.fudan.common.entity;RoutePlanResultUnit;Broken Modu0larization
+0train-ticket-master;edu.fudan.common.entity;SoldTicket;Unutilized Abstracti0on
+0train-ticket-master;edu.fudan.common.entity;TravelInfo;Broken Modularizatio0n
+0train-ticket-master;edu.fudan.common.entity;TravelResult;Unutilized Abstrac0tion
+0train-ticket-master;edu.fudan.common.entity;TripAllDetail;Unnecessary Abstr0action
+0train-ticket-master;edu.fudan.common.entity;User;Unutilized Abstraction    0
+0train-ticket-master;edu.fudan.common.entity;User;Broken Modularization     0
+0train-ticket-master;rebook.entity;VerifyResult;Unutilized Abstraction      0
+0train-ticket-master;edu.fudan.common.exception;BaseException;Unutilized Abs0traction
+0train-ticket-master;edu.fudan.common.exception;TokenException;Unutilized Ab0straction
+0train-ticket-master;edu.fudan.common.exception;TokenException;Broken Hierar0chy
+0train-ticket-master;edu.fudan.common.security.jwt;JWTFilter;Unutilized Abst0raction
+0train-ticket-master;edu.fudan.common.util;Response;Unnecessary Abstraction 0
+0train-ticket-master;config;SecurityConfig;Unutilized Abstraction           0
+0train-ticket-master;config.controller;ConfigControllerTest;Unutilized Abstr0action
+0train-ticket-master;config.init;InitData;Unutilized Abstraction            0
+0train-ticket-master;config.service;ConfigServiceImplTest;Unutilized Abstrac0tion
+0train-ticket-master;consignprice.config;SecurityConfig;Unutilized Abstracti0on
+0train-ticket-master;consignprice.controller;ConsignPriceControllerTest;Unut0ilized Abstraction
+0train-ticket-master;consignprice.service;ConsignPriceServiceImplTest;Unutil0ized Abstraction
+0train-ticket-master;consign.config;SecurityConfig;Unutilized Abstraction   0
+0train-ticket-master;consign.controller;ConsignControllerTest;Unutilized Abs0traction
+0train-ticket-master;consign.entity;Consign;Broken Modularization           0
+0train-ticket-master;consign.entity;ConsignRecord;Broken Modularization     0
+0train-ticket-master;consign.entity;GetPriceDomain;Unutilized Abstraction   0
+0train-ticket-master;consign.entity;InsertConsignRecordResult;Unutilized Abs0traction
+0train-ticket-master;consign.init;InitData;Unutilized Abstraction           0
+0train-ticket-master;consign.service;ConsignServiceImplTest;Unutilized Abstr0action
+0train-ticket-master;contacts.config;SecurityConfig;Unutilized Abstraction  0
+0train-ticket-master;contacts.controller;ContactsControllerTest;Unutilized A0bstraction
+0train-ticket-master;contacts.init;InitData;Unutilized Abstraction          0
+0train-ticket-master;contacts.service;ContactsServiceImplTest;Unutilized Abs0traction
+0train-ticket-master;delivery.config;Queues;Deficient Encapsulation         0
+0train-ticket-master;delivery.mq;RabbitReceive;Unutilized Abstraction       0
+0train-ticket-master;execute.config;SecurityConfig;Unutilized Abstraction   0
+0train-ticket-master;execute.controller;ExecuteControlllerTest;Unutilized Ab0straction
+0train-ticket-master;execute.service;ExecuteServiceImplTest;Unutilized Abstr0action
+0train-ticket-master;food_delivery.config;SecurityConfig;Unutilized Abstract0ion
+0train-ticket-master;food_delivery.controller;FoodDeliveryControllerTest;Unu0tilized Abstraction
+0train-ticket-master;food_delivery.entity;DeliveryInfo;Unnecessary Abstracti0on
+0train-ticket-master;food_delivery.entity;FoodDeliveryOrder;Broken Modulariz0ation
+0train-ticket-master;food_delivery.entity;SeatInfo;Unnecessary Abstraction  0
+0train-ticket-master;food_delivery.entity;StationFoodStoreInfo;Unutilized Ab0straction
+0train-ticket-master;food_delivery.entity;StationFoodStoreInfo;Broken Modula0rization
+0train-ticket-master;food_delivery.entity;TripOrderInfo;Unnecessary Abstract0ion
+0train-ticket-master;food_delivery.service;FoodDeliveryServiceImplTest;Unuti0lized Abstraction
+0train-ticket-master;foodsearch.config;Queues;Deficient Encapsulation       0
+0train-ticket-master;foodsearch.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;foodsearch.entity;AllTripFood;Unutilized Abstraction   0
+0train-ticket-master;foodsearch.entity;Delivery;Unutilized Abstraction      0
+0train-ticket-master;gateway;GatewayConfiguration;Unutilized Abstraction    0
+0train-ticket-master;inside_payment.async;ExecutorConfig;Unutilized Abstract0ion
+0train-ticket-master;inside_payment.config;SecurityConfig;Unutilized Abstrac0tion
+0train-ticket-master;inside_payment.controller;InsidePaymentController;Defic0ient Encapsulation
+0train-ticket-master;inside_payment.controller;InsidePaymentControllerTest;U0nutilized Abstraction
+0train-ticket-master;inside_payment.entity;Balance;Unutilized Abstraction   0
+0train-ticket-master;inside_payment.entity;Money;Unutilized Abstraction     0
+0train-ticket-master;inside_payment.entity;Payment;Unutilized Abstraction   0
+0train-ticket-master;inside_payment.init;InitData;Unutilized Abstraction    0
+0train-ticket-master;inside_payment.service;InsidePaymentServiceImpl;Deficie0nt Encapsulation
+0train-ticket-master;inside_payment.service;InsidePaymentServiceImplTest;Unu0tilized Abstraction
+0train-ticket-master;notification.config;EmailConfig;Unnecessary Abstraction0
+0train-ticket-master;notification.config;EmailConfig;Unutilized Abstraction 0
+0train-ticket-master;notification.config;Queues;Deficient Encapsulation     0
+0train-ticket-master;notification.config;SecurityConfig;Unutilized Abstracti0on
+0train-ticket-master;notification.controller;NotificationControllerTest;Unut0ilized Abstraction
+0train-ticket-master;notification.mq;RabbitReceive;Unutilized Abstraction   0
+0train-ticket-master;notification.service;NotificationServiceImplTest;Unutil0ized Abstraction
+0train-ticket-master;other.config;SecurityConfig;Unutilized Abstraction     0
+0train-ticket-master;other.controller;OrderOtherControllerTest;Unutilized Ab0straction
+0train-ticket-master;other.init;InitData;Unutilized Abstraction             0
+0train-ticket-master;other.service;OrderOtherServiceImpl;Insufficient Modula0rization
+0train-ticket-master;other.service;OrderOtherServiceImplTest;Unutilized Abst0raction
+0train-ticket-master;other.service;OrderOtherServiceImplTest;Insufficient Mo0dularization
+0train-ticket-master;order.config;SecurityConfig;Unutilized Abstraction     0
+0train-ticket-master;order.controller;OrderControllerTest;Unutilized Abstrac0tion
+0train-ticket-master;order.init;InitData;Imperative Abstraction             0
+0train-ticket-master;order.init;InitData;Unutilized Abstraction             0
+0train-ticket-master;order.service;OrderServiceImpl;Insufficient Modularizat0ion
+0train-ticket-master;order.service;OrderServiceImplTest;Unutilized Abstracti0on
+0train-ticket-master;order.service;OrderServiceImplTest;Insufficient Modular0ization
+0train-ticket-master;com.trainticket.config;SecurityConfig;Unutilized Abstra0ction
+0train-ticket-master;com.trainticket.controller;PaymentControllerTest;Unutil0ized Abstraction
+0train-ticket-master;com.trainticket.entity;Money;Unnecessary Abstraction   0
+0train-ticket-master;com.trainticket.init;InitData;Unutilized Abstraction   0
+0train-ticket-master;com.trainticket.repository;AddMoneyRepository;Unnecessa0ry Abstraction
+0train-ticket-master;com.trainticket.service;PaymentServiceImplTest;Unutiliz0ed Abstraction
+0train-ticket-master;preserveOther.config;Queues;Deficient Encapsulation    0
+0train-ticket-master;preserveOther.config;SecurityConfig;Unutilized Abstract0ion
+0train-ticket-master;preserveOther.controller;PreserveOtherControllerTest;Un0utilized Abstraction
+0train-ticket-master;preserveOther.service;PreserveOtherServiceImplTest;Unut0ilized Abstraction
+0train-ticket-master;preserve.config;Queues;Deficient Encapsulation         0
+0train-ticket-master;preserve.config;SecurityConfig;Unutilized Abstraction  0
+0train-ticket-master;preserve.controller;PreserveControllerTest;Unutilized A0bstraction
+0train-ticket-master;preserve.service;PreserveServiceImplTest;Unutilized Abs0traction
+0train-ticket-master;price.config;SecurityConfig;Unutilized Abstraction     0
+0train-ticket-master;price.controller;PriceControllerTest;Unutilized Abstrac0tion
+0train-ticket-master;price.init;InitData;Imperative Abstraction             0
+0train-ticket-master;price.init;InitData;Unutilized Abstraction             0
+0train-ticket-master;price.service;PriceServiceImplTest;Unutilized Abstracti0on
+0train-ticket-master;rebook.config;SecurityConfig;Unutilized Abstraction    0
+0train-ticket-master;rebook.controller;RebookControllerTest;Unutilized Abstr0action
+0train-ticket-master;rebook.service;RebookServiceImplTest;Unutilized Abstrac0tion
+0train-ticket-master;plan.config;SecurityConfig;Unutilized Abstraction      0
+0train-ticket-master;plan.controller;RoutePlanControllerTest;Unutilized Abst0raction
+0train-ticket-master;plan.service;RoutePlanServiceImplTest;Unutilized Abstra0ction
+0train-ticket-master;route.config;SecurityConfig;Unutilized Abstraction     0
+0train-ticket-master;route.controller;RouteControllerTest;Unutilized Abstrac0tion
+0train-ticket-master;route.entity;RouteInfo;Unnecessary Abstraction         0
+0train-ticket-master;route.entity;RouteInfo;Broken Modularization           0
+0train-ticket-master;route.init;InitData;Imperative Abstraction             0
+0train-ticket-master;route.init;InitData;Unutilized Abstraction             0
+0train-ticket-master;route.service;RouteServiceImplTest;Unutilized Abstracti0on
+0train-ticket-master;seat.config;SecurityConfig;Unutilized Abstraction      0
+0train-ticket-master;seat.controller;SeatControllerTest;Unutilized Abstracti0on
+0train-ticket-master;seat.service;SeatServiceImplTest;Unutilized Abstraction0
+0train-ticket-master;security.config;SecurityConfig;Unutilized Abstraction  0
+0train-ticket-master;security.controller;SecurityControllerTest;Unutilized A0bstraction
+0train-ticket-master;security.init;InitData;Unutilized Abstraction          0
+0train-ticket-master;security.service;SecurityServiceImplTest;Unutilized Abs0traction
+0train-ticket-master;food.config;SecurityConfig;Unutilized Abstraction      0
+0train-ticket-master;food.controller;StationFoodControllerTest;Unutilized Ab0straction
+0train-ticket-master;food.service;StationFoodServiceImplTest;Unutilized Abst0raction
+0train-ticket-master;fdse.microservice.init;InitData;Imperative Abstraction 0
+0train-ticket-master;fdse.microservice.init;InitData;Unutilized Abstraction 0
+0train-ticket-master;trainFood.config;SecurityConfig;Unutilized Abstraction 0
+0train-ticket-master;trainFood.entity;TrainFood;Unutilized Abstraction      0
+0train-ticket-master;train.config;SecurityConfig;Unutilized Abstraction     0
+0train-ticket-master;train.controller;TrainControllerTest;Unutilized Abstrac0tion
+0train-ticket-master;train.init;InitData;Unutilized Abstraction             0
+0train-ticket-master;train.service;TrainServiceImplTest;Unutilized Abstracti0on
+0train-ticket-master;travelplan.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;travelplan.controller;TravelPlanControllerTest;Unutiliz0ed Abstraction
+0train-ticket-master;travelplan.service;TravelPlanServiceImplTest;Unutilized0 Abstraction
+0train-ticket-master;travel.config;SecurityConfig;Unutilized Abstraction    0
+0train-ticket-master;travel.controller;TravelControllerTest;Unutilized Abstr0action
+0train-ticket-master;travel.init;InitData;Unutilized Abstraction            0
+0train-ticket-master;travel.service;MyCallable;Unutilized Abstraction       0
+0train-ticket-master;travel.service;TravelServiceImplTest;Unutilized Abstrac0tion
+0train-ticket-master;travel.service;TravelServiceImplTest;Insufficient Modul0arization
+0train-ticket-master;travel2.config;SecurityConfig;Unutilized Abstraction   0
+0train-ticket-master;travel2.controller;TravelControllerTest;Unutilized Abst0raction
+0train-ticket-master;travel2.entity;TripAllDetail;Unnecessary Abstraction   0
+0train-ticket-master;travel2.init;InitData;Unutilized Abstraction           0
+0train-ticket-master;travel2.service;TravelServiceImplTest;Unutilized Abstra0ction
+0train-ticket-master;travel2.service;TravelServiceImplTest;Insufficient Modu0larization
+0train-ticket-master;user.config;SecurityConfig;Unutilized Abstraction      0
+0train-ticket-master;user.controller;UserControllerTest;Unutilized Abstracti0on
+0train-ticket-master;user.dto;AuthDto;Unnecessary Abstraction               0
+0train-ticket-master;user.dto;UserDto;Broken Modularization                 0
+0train-ticket-master;user.init;InitUser;Unutilized Abstraction              0
+0train-ticket-master;user.service;UserServiceImplTest;Unutilized Abstraction0
+0train-ticket-master;verifycode.config;SecurityConfig;Unutilized Abstraction0
+0train-ticket-master;verifycode.controller;VerifyCodeControllerTest;Unutiliz0ed Abstraction
+0train-ticket-master;verifycode.service.impl;VerifyCodeServiceImpl;Deficient0 Encapsulation
+0train-ticket-master;verifycode.service;VerifyCodeServiceImplTest;Unutilized0 Abstraction
+0train-ticket-master;verifycode.service;VerifyCodeServiceImplTest;Insufficie0nt Modularization
+0train-ticket-master;waitorder.config;SecurityConfig;Unutilized Abstraction 0
+0train-ticket-master;waitorder.service.Impl;WaitListOrderServiceImplTest;Unu0tilized Abstraction
+0train-ticket-master;waitorder;WaitOrderApplicationTests;Unutilized Abstract0ion
+0                                                                           0
