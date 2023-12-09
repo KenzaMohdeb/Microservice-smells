@@ -1,0 +1,90 @@
+{
+  "microserviceMetrics": [
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\gradle",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\scripts",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-asset-management",
+      "staticFileCount": 0,
+      "entityFileCount": 3
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-batch-operations",
+      "staticFileCount": 0,
+      "entityFileCount": 3
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-command-delivery",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-device-management",
+      "staticFileCount": 0,
+      "entityFileCount": 24
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-device-registration",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-device-state",
+      "staticFileCount": 0,
+      "entityFileCount": 4
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-event-management",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-event-search",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-event-sources",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-inbound-processing",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-instance-management",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-label-generation",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-outbound-connectors",
+      "staticFileCount": 4,
+      "entityFileCount": 0
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-schedule-management",
+      "staticFileCount": 0,
+      "entityFileCount": 3
+    },
+    {
+      "path": "C:\\Users\\kenza\\VirtualBox VMs\\Downloads\\sitewhere-master\\sitewhere-master\\service-streaming-media",
+      "staticFileCount": 0,
+      "entityFileCount": 0
+    }
+  ],
+  "greedyMicroservices": []
+}
