@@ -108,7 +108,7 @@ Puis ouvrir notre navigateur sur l’adresse : http://localhost:4200
 
 ![client](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Capture%20d'%C3%A9cran%202023-11-25%20174850.png)
 
-Afin de pouvoir analyser les applications avec l’outil MicroFreshener, nous devons générer un fichier microTosca qui décrit leur architecture en utilisant l’outil microMiner [GitHub - di-unipi-socc/microMiner]. 
+Afin de pouvoir analyser les applications avec l’outil MicroFreshener, nous devons générer un fichier microTosca qui décrit leur architecture en utilisant l’outil microMiner [GitHub - di-unipi-socc/microMiner ]. 
 
 Pour se faire, nous pouvons tout simplement lancer la commande suivante dans un environnement Unix : 
 
