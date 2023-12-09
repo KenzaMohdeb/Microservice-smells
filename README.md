@@ -118,7 +118,7 @@ voici un exemple de fichier résultant: [https://github.com/KenzaMohdeb/Microser
 
 **Exigences:** python 3.8 et privilèges sudo.
 
-Voici un aperçu de l'analyse du projet online boutique: 
+Voici un aperçu de l'analyse avec MicroFreshener: 
 ![analyse](https://github.com/KenzaMohdeb/Microservice-smells/blob/Images/Online%20boutique.png)
 
 Les étoiles sont des instances de l'odeur "Wobbly service interaction" et les enveloppes sont des instances de l'odeur "endpoints smell". 
